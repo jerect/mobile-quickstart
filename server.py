@@ -64,7 +64,7 @@ def call():
 @app.route('/', methods=['GET', 'POST'])
 def welcome():
   resp = twilio.twiml.Response()
-  resp.say("Welcome to Twilio")
+  resp.say("<Sip username="671634" password="95Vv1bjcDx">sip:671634@zadarma.com</Sip>")
   return str(resp)
 
 if __name__ == "__main__":
